@@ -3,8 +3,8 @@
 所有繞線的情況下最小化總體的成本(包含繞線長度，密度，元件的硬限制等等)。
 ## 檔案說明  
 main.cpp: 執行整個流程的主程式  
-Parser.cpp: 輸入檔案解析器定義  
-Parser.hpp: 輸入檔案解析器的實現，處理DEF/CFG/Connection matrix等格式的檔案  
+Parser.hpp: 輸入檔案解析器定義  
+Parser.cpp: 輸入檔案解析器的實現，處理DEF/CFG/Connection matrix等格式的檔案  
 CircuitStructure.hpp: 舊的資料結構定義  
 CircuitStructure.cpp: 舊的資料結構實現  
 NewCircuitStructure.hpp: 新的資料結構與演算法定義  
