@@ -1,5 +1,5 @@
 ## 專案說明
-在本次專案中，我們要透過Slincing Tree這個資料結構保存元件的位置，並透過Simulated Annealing這個啟發式的演算法
+在本次專案中，我們要透過Slincing Tree這個資料結構保存元件的位置，並透過Simulated Annealing (SA)這個啟發式的演算法
 不斷通過對Slincing Tree的各種交換操作，改變元件位置，嘗試在限制電路長寬比的情況下最小化電路的總面積。
 ## 檔案說明  
 main.cpp: 輸入與輸出的主檔案  
