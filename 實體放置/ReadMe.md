@@ -18,5 +18,6 @@ sample.txt: 測試用的元件資料
 	4. 生成 .out 檔
  
 ## 執行狀況
-在開始執行時輸出框會顯示Original Area，Original Aspect Ratio，Original Cost，代表初始隨機的放置面積，高寬比與成本(面積)  
-執行時會有進度條，執行完成會顯示執行時間，最後會輸出*.out檔，並在顯示框顯示Optimal Area，Optimal Aspect Ratio，Optimal Cost，代表SA找到最佳結果的放置面積，高寬比與成本。
+在開始執行時輸出框會顯示Original Area，Original Aspect Ratio，Original Cost，代表初始隨機的放置面積，高寬比與成本(面積)，
+執行時會有進度條，執行完成會顯示執行時間，最後會輸出*.out檔，  
+並在顯示框顯示Optimal Area，Optimal Aspect Ratio，Optimal Cost，代表SA找到最佳結果的放置面積，高寬比與成本。
