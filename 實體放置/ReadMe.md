@@ -9,6 +9,7 @@ Block.hpp: 定義元件資料(包含長寬，位置等資訊)
 Block.cpp: 實現顯示元件資訊等操作  
 report.pdf: 程式的執行狀況與我在實踐上加強的部分  
 sample.txt: 測試用的元件資料
+sample.out: 輸出的.out檔
 ## 使用方法
 	1. 進入此資料夾
 	2. 輸入 make 並產生執行檔 floorplanner
