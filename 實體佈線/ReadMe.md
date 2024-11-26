@@ -2,19 +2,18 @@
 在本次專案中，我們要實現全局繞線的演算法，我透過A*-search演算法在電路中根據不同元件的特性(例如:有的元件可以穿過但有的步行)，繞出一條成本較低的路徑，目標是在完成
 所有繞線的情況下最小化總體的成本(包含繞線長度，密度，元件的應限制等等)
 ## 檔案說明  
-
-main.cpp: 執行整個流程的主程式
-Parser.cpp: 輸入檔案解析器定義
-Parser.hpp: 輸入檔案解析器的實現，處理DEF/CFG/Connection matrix等格式的檔案
-CircuitStructure.hpp: 舊的資料結構定義
-CircuitStructure.cpp: 舊的資料結構實現
-NewCircuitStructure.hpp: 新的資料結構與演算法定義
-NewCircuitStructure.cpp: 新的資料結構與演算法實現
-Utils.hpp: 其他的小工具
-Utils.cpp: 小工具的實現
-DrawBmp.hpp: 畫.bmp的程式
-test_case: 測試資料夾(只有小型資料，因為大型比賽資料目前程式跑不動)
-routingResult.bmp: 測試產生的佈線圖
+main.cpp: 執行整個流程的主程式  
+Parser.cpp: 輸入檔案解析器定義  
+Parser.hpp: 輸入檔案解析器的實現，處理DEF/CFG/Connection matrix等格式的檔案  
+CircuitStructure.hpp: 舊的資料結構定義  
+CircuitStructure.cpp: 舊的資料結構實現  
+NewCircuitStructure.hpp: 新的資料結構與演算法定義  
+NewCircuitStructure.cpp: 新的資料結構與演算法實現  
+Utils.hpp: 其他的小工具  
+Utils.cpp: 小工具的實現  
+DrawBmp.hpp: 畫.bmp的程式  
+test_case: 測試資料夾(只有小型資料，因為大型比賽資料目前程式跑不動)  
+routingResult.bmp: 測試產生的佈線圖  
 net.rpt: 測試產生的佈線檔
 ## 使用方法
         1. 進入資料夾
