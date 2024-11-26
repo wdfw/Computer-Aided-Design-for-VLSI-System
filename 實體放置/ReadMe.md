@@ -3,11 +3,11 @@
 不斷通過對Slincing Tree的各種交換操作，改變元件位置，嘗試在限制電路長寬比的情況下最小化電路的總面積。
 ## 檔案說明  
 main.cpp: 輸入與輸出的主檔案  
-SlicingTree.hpp: 定義Slicing tree的結構與可行的操作
-SlicingTree.cpp: 實現Slicing tree的資料結構與其操作
-Block.hpp: 定義元件資料(包含長寬，位置等資訊)
-Block.cpp: 實現顯示元件資訊等操作
-report.pdf: 程式的執行狀況與我在實踐上加強的部分
+SlicingTree.hpp: 定義Slicing tree的結構與可行的操作  
+SlicingTree.cpp: 實現Slicing tree的資料結構與其操作  
+Block.hpp: 定義元件資料(包含長寬，位置等資訊)  
+Block.cpp: 實現顯示元件資訊等操作  
+report.pdf: 程式的執行狀況與我在實踐上加強的部分  
 sample.txt: 測試用的元件資料
 ## 使用方法
 	1. 進入此資料夾
