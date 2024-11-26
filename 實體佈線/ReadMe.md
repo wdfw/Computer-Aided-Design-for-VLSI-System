@@ -13,7 +13,9 @@ NewCircuitStructure.cpp: 新的資料結構與演算法實現
 Utils.hpp: 其他的小工具
 Utils.cpp: 小工具的實現
 DrawBmp.hpp: 畫.bmp的程式
-test_case: 測試資料(只有小型資料，因為大型比賽資料目前程式跑不動)
+test_case: 測試資料夾(只有小型資料，因為大型比賽資料目前程式跑不動)
+routingResult.bmp: 測試產生的佈線圖
+net.rpt: 測試產生的佈線檔
 ## 使用方法(要安裝Yacc與Lex才可以正常使用)
         1. 進入資料夾
         2. 輸入 make 並產生執行檔 CGR
@@ -30,8 +32,8 @@ test_case: 測試資料(只有小型資料，因為大型比賽資料目前程�
         4. 輸出佈線檔案(未指定outputfile下為net.rpt) 與 佈線圖(routingResult.bmp)
 
 ## 測試結果
-        以下是輸入 ./CGR 1000 test_case/case33/case33_def test_case/case33/case33_cfg.json test_case/case33/case33.json 產生的佈線圖routingResult.bmp
-        
+以下是輸入 ./CGR 1000 test_case/case33/case33_def test_case/case33/case33_cfg.json test_case/case33/case33.json 產生的佈線圖
+![image](https://github.com/user-attachments/assets/070b30d9-1c69-405e-b14b-e0c513427f0d)
 ## 執行狀況
 執行程式後會根據輸入檔案進行繞線，執行過程會顯示繞成功與失敗的net (可用-f與-s關閉)  
 成功會顯示Complete ID: [# of nets] of [net ID]，[# of nets]代表此net ID的第#條線，[net ID]代表net ID  
