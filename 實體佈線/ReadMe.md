@@ -16,7 +16,7 @@ DrawBmp.hpp: 畫.bmp的程式
 test_case: 測試資料夾(只有小型資料，因為大型比賽資料目前程式跑不動)
 routingResult.bmp: 測試產生的佈線圖
 net.rpt: 測試產生的佈線檔
-## 使用方法(要安裝Yacc與Lex才可以正常使用)
+## 使用方法
         1. 進入資料夾
         2. 輸入 make 並產生執行檔 CGR
         3. 執行 CGR 
@@ -40,8 +40,7 @@ net.rpt: 測試產生的佈線檔
 失敗會顯示Non-throughable ID: [# of nets] of [net ID]，同上  
 每次成功/失敗都會顯示總共完成的繞線數量(Total Completed: # Nets)  
 而最後會顯示成功繞線的比例(Routable Rate: #%)  
-最後會輸出 佈線檔案(預設為net.rpt) 與 佈線點陣圖(routingResult.bmp)  
-佈線檔案遵守題目D的輸出  
+最後會輸出 佈線檔案(預設為net.rpt) 與 佈線點陣圖(routingResult.bmp)   
 佈線點陣圖包含元件與佈線，白色為晶片，紅色為feedthrough_block，黑色為non-feedthrough_block，深藍色為佈線，黃色為佈線目標，淺藍為佈線起始點  
 
 
